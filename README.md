@@ -1,24 +1,7 @@
-# README
+# WeatherApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This WeatherApp is written in ruby on rails. It makes an API call to
+Openweathermap.org to get weather information based on latitude and longitude.
 
-Things you may want to cover:
+All of the information is taken from the api call except for the date and time.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
