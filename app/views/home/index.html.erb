@@ -1,6 +1,7 @@
 <div class="w-full text-center">
   <p><%= Date.today.strftime("%A | %B %d %Y") %></p>
   <img class="mx-auto" src="<%= @weather.icon_url %>" />
+  <p><%= @weather.city %></p>
   <p><%= @weather.status %></p>
   <p class="text-xs"><%= @weather.description %></p>
   <p><%= @weather.temperature %> <span class="italic">Fahrenheit<span></p>
