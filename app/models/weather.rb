@@ -5,7 +5,6 @@ class Weather
     @data = data.with_indifferent_access
   end
 
-  
  
   def icon_url
     "http://openweathermap.org/img/wn/#{current_weather[:icon]}@2x.png"
@@ -21,6 +20,10 @@ class Weather
 
   def temperature
     data.dig(:main, :temp)
+  end
+  
+  def city
+    data.dig(:name)
   end
 
   private
